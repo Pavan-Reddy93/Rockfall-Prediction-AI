@@ -1,0 +1,154 @@
+/* ===== GLOBAL ===== */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background: #ffffff;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ===== HEADER ===== */
+.top-header {
+  background: #5b8f29;
+  color: white;
+  padding: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ===== MAIN PANEL ===== */
+.main-panel {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* ===== SECTION TITLES ===== */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+/* ===== FULL WIDTH INPUT TABLE (FWI STYLE) ===== */
+.input-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.input-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.input-table th {
+  background: #f1f5f9;
+  font-weight: bold;
+}
+
+.input-table th,
+.input-table td {
+  border: 1px solid #cbd5e1;
+  padding: 12px;
+  text-align: center;
+}
+
+.input-table input {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* ===== GRAPH FIX ===== */
+.chart-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.chart-box {
+  width: 100%;
+  height: 300px;   /* IMPORTANT */
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+}
+
+/* ===== FORENSIC REPORT ===== */
+.report-box {
+  margin-top: 20px;
+  border: 1px solid #94a3b8;
+  background: #f8fafc;
+  padding: 15px;
+}
+
+.report-box h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.report-box pre {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
+
+/* ===== FOOTER NAV ===== */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background: #f1f5f9;
+  border-top: 1px solid #cbd5e1;
+  padding: 10px 0;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* ===== COPYRIGHT ===== */
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  padding: 8px;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+/* ===== LEGEND ===== */
+.legend {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0 20px;
+  font-weight: bold;
+}
+
+.legend span {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+}
+
+.legend .low {
+  background: #16a34a;
+}
+
+.legend .medium {
+  background: #f59e0b;
+}
+
+.legend .high {
+  background: #dc2626;
+}

@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const BASE = "http://127.0.0.1:8000";
+const BASE_URL = "https://rockfall-prediction-ai-luqr.onrender.com";
 
 export const fetchWeather = (lat, lon) =>
-  axios.get(`${BASE}/weather?lat=${lat}&lon=${lon}`);
+  axios.get(`${BASE_URL}/weather?lat=${lat}&lon=${lon}`);
 
 export const predictRisk = (payload) =>
-  axios.post(`${BASE}/predict`, payload);
+  axios.post(`${BASE_URL}/predict`, payload);

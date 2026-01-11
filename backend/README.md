@@ -18,7 +18,7 @@ Visualizes failure probability over time
 Generates government‑style forensic assessment reports
 
 3. Key Features
-🌦 Real‑time Weather Integration (OpenWeather API)
+ Real‑time Weather Integration (OpenWeather API)
 
 4. Multi‑Factor Risk Assessment
 
@@ -118,4 +118,5 @@ Heatmap‑based risk visualization
 Mobile alert notifications
 
 Multi‑mine dashboard support
+
 

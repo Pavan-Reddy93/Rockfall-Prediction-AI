@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://rockfall-prediction-ai-luqr.onrender.com";
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 export const fetchWeather = (lat, lon) =>
   axios.get(`${BASE_URL}/weather?lat=${lat}&lon=${lon}`);
